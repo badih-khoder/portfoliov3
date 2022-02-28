@@ -1,0 +1,58 @@
+.SMform-b {
+  position: relative;
+  left: 350px;
+  top: 150px;
+  text-align: start;
+  align-items: flex-start;
+  display: flex;
+  flex-direction: row;
+  width: fit-content;
+}
+
+.smlink-b {
+  margin: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.smbtn-b {
+  position: relative;
+  left: -770px;
+  top: 250px;
+  background-color: #252628;
+  border: none;
+  border-radius: 18px;
+  color: #ffffff;
+  font-size: 1.8rem;
+  text-align: center;
+  width: 190px;
+  height: 70px;
+}
+
+@media all and (max-width: 440px) {
+  .SMform-b {
+    position: relative;
+    left: 80px;
+    top: 30px;
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    padding: 0px;
+    width: fit-content;
+    height: fit-content;
+    font-size: 30px;
+  }
+  .smlink-b {
+    margin: 0;
+  }
+
+  .smtext-b {
+    width: 250px;
+  }
+
+  .smbtn-b {
+    position: relative;
+    left: 50px;
+    top: 20px;
+  }
+}

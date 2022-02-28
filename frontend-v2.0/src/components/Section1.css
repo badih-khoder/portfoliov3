@@ -1,0 +1,70 @@
+.social_icons_o {
+  display: flex;
+  flex-direction: column;
+  padding-left: 15%;
+  border-right: 10px solid #e35969;
+  border-radius: 10px;
+  padding-right: 2%;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  padding-left: 20%;
+}
+
+.icons_o {
+  display: flex;
+  padding-top: 90px;
+  margin-bottom: 200px;
+}
+.home_text_o {
+  padding-left: 50px;
+  font-size: 50px;
+  color: aliceblue;
+}
+.headline_o {
+  color: silver;
+  padding-left: 50px;
+  font-size: 28px;
+}
+.img_o {
+  height: 300px;
+  width: 500px;
+  padding-left: 150px;
+}
+
+.border-im {
+  border-bottom: 10px solid #e35969;
+  border-radius: 7px;
+  width: 382px;
+  height: 0px;
+  position: relative;
+  left: -420px;
+  top: 301px;
+}
+.fname_b {
+  color: #e35969;
+}
+.contact {
+  text-decoration: none;
+  color: #e35969;
+  scroll-behavior: smooth;
+}
+
+.contactme {
+  text-align: center;
+  border: 3px solid #e35969;
+  border-radius: 30px;
+  width: 250px;
+  position: absolute;
+  left: 30%;
+  top: 570px;
+
+  font-size: 40px;
+}
+.app {
+  position: relative;
+}
+
+.banana1 {
+  display: flex;
+}

@@ -1,0 +1,38 @@
+.icon {
+  width: 150px;
+  height: 150px;
+  margin: 3%;
+}
+.images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-bottom: 5%;
+  margin-right: 15%;
+  margin-left: 353px;
+  margin-top: 200px;
+  position: relative;
+  left: -50px;
+}
+
+.icon:hover {
+  height: 210px;
+  width: 210px;
+  transition: 0.5s ease;
+  cursor: pointer;
+}
+
+.icon:not(:hover) {
+  height: 150px;
+  width: 150px;
+  transition: 0.5s ease;
+}
+
+.slide {
+  display: inline-block;
+}
+
+.slider {
+  text-align: center;
+}
+

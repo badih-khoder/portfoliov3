@@ -1,0 +1,42 @@
+.container {
+  width: 80%;
+  margin: 30px auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+.description {
+  display: flex;
+  line-height: 1.3em;
+  flex: 2;
+  text-align: justify;
+  color: #e35969;
+  margin-top: -100px;
+  font-size: 20px;
+  margin-left: 5%;
+  font-size: 25px;
+  padding-left: 100px;
+}
+
+.pic {
+  width: 350px;
+  height: 500px;
+  border-radius: 5%;
+  z-index: 1;
+}
+.batata {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.about-title {
+  font-size: 80px;
+  position: relative;
+  top: -100px;
+  color: #e35969;
+  border-bottom: 10px solid #e35969;
+  border-radius: 10%;
+}

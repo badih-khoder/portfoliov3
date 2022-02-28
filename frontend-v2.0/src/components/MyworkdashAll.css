@@ -1,0 +1,16 @@
+.projects-container {
+  width: 70%;
+  margin: 40px auto;
+  position: relative;
+}
+
+.projects-wrapper {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 80px;
+}
+
+.project-image {
+  margin-top: 40px;
+}

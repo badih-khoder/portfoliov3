@@ -1,0 +1,47 @@
+.work-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.work-wrapper {
+  width: 40%;
+  margin: 6rem auto;
+  display: flex;
+
+  justify-content: space-between;
+}
+
+.btn-mywork {
+  margin-top: 40px;
+}
+
+.import-input {
+  margin: 30px;
+  position: relative;
+  top: -380px;
+  left: 350px;
+}
+
+.proj-name-b {
+  position: relative;
+  top: -350px;
+  left: 130px;
+}
+
+.proj-link-b {
+  position: relative;
+  top: -150px;
+  left: 380px;
+}
+.upload-image {
+  position: relative;
+  left: 400px;
+  top: -370px;
+}
+
+.btn-mywork {
+  position: relative;
+  left: 40px;
+  top: -70px;
+}

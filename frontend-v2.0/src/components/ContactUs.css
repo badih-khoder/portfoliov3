@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Varela+Round&display=swap%27");
+
+.contact_title {
+  color: #e35969;
+  padding-bottom: 5%;
+  font-size: 70px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+}
+.contact_form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 10%;
+}
+.in_o {
+  width: 800px;
+  height: 50px;
+  border-radius: 14px;
+  border: none;
+  outline: none;
+  background-color: #e35969;
+  font-family: "Varela Round";
+  padding-left: 12px;
+  color: #fff;
+}
+input::placeholder {
+  color: #fff;
+  font-size: large;
+  padding-left: 12px;
+}
+.content_input,
+
+.email_input {
+  padding-bottom: 20px;
+}
+
+.ta_o {
+  resize: none;
+  width: 820px;
+  height: 200px;
+  border: 5px solid #e35969;
+  border-radius: 15px;
+  background-color: #e35969;
+  color: #fff;
+  padding-left: 12px;
+  font-size: 17px;
+  font-family: "Varela Round";
+}
+
+.content_input textarea::placeholder {
+  color: #fff;
+  text-transform: capitalize;
+}
+.content_input textarea:focus {
+  outline: none;
+}
+.submit_button_oo {
+  color: #e35969;
+  display: flex;
+  justify-content: center;
+  padding-top: 5px;
+  cursor: pointer;
+  text-align: center;
+  border-radius: 20px;
+  width: 25%;
+}
+input {
+  cursor: pointer;
+  color: #fff;
+  font-size: 22px;
+}
+.send_o {
+  color: #fff;
+}
+.contact_underline {
+  width: 210px;
+  height: 0px;
+  border: 5px solid #e35969;
+  margin-bottom: 50px;
+  margin-top: -60px;
+  border-radius: 20px;
+}
+
+.label_o {
+  color: #fff;
+}

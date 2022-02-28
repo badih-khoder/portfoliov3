@@ -1,0 +1,39 @@
+.Stat-b {
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+  position: relative;
+  top: 170px;
+  left: 850px;
+  width: fit-content;
+  height: fit-content;
+}
+
+#count-b {
+  background-color: #161618;
+  border-radius: 102px;
+  width: 500px;
+  padding-left: 20px;
+  text-align: center;
+}
+
+@media all and (max-width: 440px) {
+  .Stat-b {
+    height: fit-content;
+    width: fit-content;
+    flex-direction: column;
+    display: flex;
+    position: relative;
+    top: 200px;
+    left: 75px;
+    font-size: 28px;
+  }
+
+  #count-b {
+    background-color: #161618;
+    border-radius: 10px;
+    width: 250px;
+    padding-left: 20px;
+    text-align: center;
+  }
+}

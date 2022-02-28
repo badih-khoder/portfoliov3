@@ -1,0 +1,8 @@
+.header_dash_b {
+  background-color: #252628;
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+  align-items: center;
+  
+}

@@ -1,0 +1,26 @@
+.titleslider {
+  color: #e35969;
+  font-size: 80px;
+  text-align: center;
+  border-bottom: 10px solid #e35969;
+  width: fit-content;
+  position: relative;
+  left: 780px;
+  border-radius: 10%;
+}
+
+.project-image {
+  height: 400px;
+  width: 250px;
+  position: relative;
+}
+
+.swiper-container {
+  width: 80%;
+  margin: auto;
+}
+
+.project-Name {
+  font-size: 25px;
+  text-align: center;
+}
